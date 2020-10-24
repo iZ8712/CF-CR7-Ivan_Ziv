@@ -1,0 +1,12 @@
+<navbar></navbar>
+
+<div class="detailBox" *ngIf="buy">
+    <h1>Details</h1>
+    <img class="detailPic" src="{{buy.img}}">
+    <h1>{{buy.destination}}</h1>
+    <p>{{buy.description}}</p>
+    <p>{{buy.price}}</p>
+    <p>{{buy.startDates}}</p>
+    <button class="btn btn-outline-success" (click)="addToCart(buy)">Book</button>
+    <button class="btn btn-outline-primary" routerLink="/travels">Continue shopping</button>
+</div>

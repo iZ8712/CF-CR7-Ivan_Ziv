@@ -1,0 +1,17 @@
+<navbar></navbar>
+
+
+
+<div class="homeBox row">
+
+    <div class="row">
+
+        <div class="col-5 m-3 card offersOp mb-3" *ngFor="let offer of offer; index as productId">
+            <img src="{{offer.img}}" class="pic card-img-top" alt="...">
+            <div class="card-body">
+                <h1>{{offer.destination}}</h1>
+                <button class="btn btn-info btn-lg" [routerLink]="['/products', productId]">More</button>
+            </div>
+        </div>
+    </div>
+</div>

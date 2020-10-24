@@ -1,0 +1,50 @@
+export const travelDes = [
+  {
+    destination: 'Hawaii',
+    description: 'Kauai, the oldest and most northerly of the Hawaiian Islands, is surrounded by emerald-colored valleys, pointed mountain peaks, and cliffs rugged by time and the elements.',
+    startDates: '21.12.2020, 03.01.2020',
+    duration: '1 Week',
+    price: 'Price 599,-',
+    img: '/../../assets/Hawaii.jpg',
+  },
+  {
+    destination: 'Kreta',
+    description: 'Kalimera is the name of the beautiful Greek island in the Mediterranean. The island is extraordinarily varied and diverse and offers just the right thing for every taste.',
+    startDates: '15.01.2021, 15.03.2020',
+    duration: '2 Week',
+    price: 'Price 499,-',
+    img: '/../../assets/Kreta.jpg',
+  },
+  {
+    destination: 'Ägypten',
+    description: 'The land of the pharaohs and pyramids. In Egypt you can not only enjoy the sun, beach and sea to the fullest, but also get to know the famous warmth and hospitality of the Egyptians.',
+    startDates: '01.03.2021, 15.04.2021',
+    duration: '2 Week',
+    price: 'Price 399,-',
+    img: '/../../assets/Aegypten.jpg',
+  },
+  {
+    destination: 'Südafrika',
+    description: 'Breathtaking, thrilling, pulsating and limitlessly inspiring. From vibrant cities to adrenaline-pumping adventures, from fascinating wildlife to intoxicating culture, to endless beaches and coasts.',
+    startDates: '15.12.2020, 01.02.2020',
+    duration: '1 Week',
+    price: 'Price 450,-',
+    img: '/../../assets/Suedafrika.jpg',
+  },
+  {
+    destination: 'Sizilien',
+    description: 'Sicily welcomes you with warm temperatures almost all year round! Combine bathing fun, nature, culture and history in one vacation and let yourself be enchanted by the versatility of Sicily.',
+    startDates: '15.01.2021, 15.03.2020',
+    duration: '2 Week',
+    price: 'Price 299,-',
+    img: '/../../assets/Sizilien.jpg',
+  },
+  {
+    destination: 'Japan',
+    description: 'Experience neon-flooded megacities and ancient temples, and stroll through the gardens of Kyoto. Enjoy the meditative silence and Japans wonderful natural landscapes',
+    startDates: '01.03.2021, 15.04.2021',
+    duration: '3 Week',
+    price: 'Price 699,-',
+    img: '/../../assets/Japan.jpg',
+  }
+ ];

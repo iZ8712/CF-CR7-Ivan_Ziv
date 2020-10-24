@@ -1,0 +1,12 @@
+<div class=" max cart-item" *ngFor="let item of items">
+    <div class="card" style="width: 10rem;">
+        <div class="card-body">
+            <h5> {{item.destination}} </h5>
+        </div>
+        <img class="inCaPic" src="{{item.img}}">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{item.price}}</li>
+        </ul>
+        <button class="btn btn-success" routerLink="/cart">Buy</button>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.detailBox {
+    width: 30rem;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 150%;
+}
+
+h1 {
+    font-size: 150%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.detailPic {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    font-size: 150%;
+    margin-left: 2rem;
+}

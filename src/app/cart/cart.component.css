@@ -1,0 +1,21 @@
+.cartBox {
+    margin-top: 2rem;
+    width: 30rem;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
+}
+
+.btn {
+    margin-top: 1rem;
+    font-size: 150%;
+}
+
+.con {
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+.bookedImg {
+    width: 100%;
+}
